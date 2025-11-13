@@ -18,10 +18,10 @@ const menuItems = [
 const Profile = () => {
   const [activeMenu, setActiveMenu] = useState("info");
   const [formData, setFormData] = useState({
-    firstName: "Swastik",
-    lastName: "Mandal",
-    email: "swastik@example.com",
-    phone: "+91 9XXXXXXXXX",
+    firstName: "Tushar",
+    lastName: "Singhal",
+    email: "tushar@example.com",
+    phone: "+91 1234567890",
   });
 
   const handleSave = () => {
@@ -41,7 +41,7 @@ const Profile = () => {
                   <Avatar className="h-20 w-20 mb-3 bg-gradient-primary">
                     <AvatarFallback className="text-2xl font-bold text-white">S</AvatarFallback>
                   </Avatar>
-                  <h3 className="font-semibold text-lg">Swastik Mandal</h3>
+                  <h3 className="font-semibold text-lg">Tushar Singhal</h3>
                 </div>
 
                 <nav className="space-y-1">
